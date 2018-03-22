@@ -1,0 +1,49 @@
+
+fieldset {
+ 	padding:10px 0 10px 0;
+ 	border-bottom:solid 1px #999;
+}
+
+.ff-wrap:after {
+ 	content:'';
+ 	display:block;
+ 	clear:both;
+}
+
+
+.label-wrap {
+ 	float:left;
+ 	width:25%;
+}
+
+.input-wrap {
+ 	float:right;
+ 	width:70%;
+}
+
+.input {
+ 	width:90%;
+ 	border:solid 1px #666;
+ 	padding:2px;
+ 	border-radius:3px;
+ 	background-color:#fff;
+ 	font-family:sans-serif;
+ 	font-size:12px;
+ 	color:#000;
+}
+
+.checkbox {
+ 	width:15px;
+}
+
+.button {
+ 	padding:3px 10px 3px 10px;
+ 	border:solid 1px #999;
+ 	background-color:#369;
+ 	color:#fff;
+ 	border-radius:3px;
+}
+
+.button:hover {
+ 	background-color:#69c;
+}

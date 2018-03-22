@@ -1,0 +1,27 @@
+table {
+ 	width:100%;
+}
+
+tr.even {
+ 	background-color:#eee;
+}
+tr.odd {
+ 	background-color:#ddd;
+}
+
+tr:hover {
+ 	background-color:#abc;
+}
+
+
+tr.linked:hover {
+ 	cursor:pointer;
+ 	background-color:#69c;
+}
+tr.linked:hover * {
+ 	color:#fff;
+}
+
+th, td {
+ 	padding:3px;
+}
